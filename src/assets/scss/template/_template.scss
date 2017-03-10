@@ -68,6 +68,13 @@
   border-radius: 5px;
   color: $white !important;
   font-size: 14px;
+  &:hover {
+    background-color: $border-orange-color;
+  }
+}
+.price-product {
+  font-weight: 600;
+  padding: 0 5px;
 }
 
 .button a {
@@ -98,7 +105,7 @@ p {
 .companies {
   background-color: #f6f6f8;
   border-top: solid 2px $blue-color;
-  padding-top: 15px;
+  padding: 15px 10px 1px 10px;
   a {
     color: $blue-color;
   }
@@ -120,5 +127,8 @@ p {
 .cart-product {
   .wrapper-inner {
     padding: 10px;
+    p {
+      text-align: center;
+    }
   }
 }
