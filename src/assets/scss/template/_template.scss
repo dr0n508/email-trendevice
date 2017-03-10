@@ -152,29 +152,30 @@ p {
 @media only screen and (max-width: #{$global-breakpoint}) {
   p {
     font-size: 15px !important;
+    line-height: 20px !important;
   }
   .header .wrapper-inner p{
-    padding-left: 0;
-    text-align: center;
+    padding-left: 0!important;
+    text-align: center!important;
   }
   .text-under-img {
     .wrapper-inner {
-      font-size: 15px;
+      font-size: 15px!important;
     }
   }
   .button a {
     text-align: center;
   }
   .cart-product .wrapper-inner {
-    padding: 5px;
+    padding: 5px!important;
   }
   .main-link {
-    text-align: center;
+    text-align: center!important;
   }
   .social-links .list-social-icons {
-    text-align: right;
+    text-align: right!important;
     a {
-      padding-left: 10px;
+      padding-left: 10px!important;
     }
   }
 }
