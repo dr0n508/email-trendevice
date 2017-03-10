@@ -13,17 +13,21 @@
 //   8. Thumbnial
 
 //colors
-$gray: #e4e4e4;
-$linkcolor: #1592e6;
-$greencolor: #8dc63f;
-$bg-gray: #f5f5f1;
-$graytextcolor: #868686;
+$black: #222525;
+$blue-color: #608ac3;
+$orange-color: #e39344;
+$border-orange-color: #c98147;
+$white-color: white;
+$text-color: #201600;
+$footer-text-color: #f1f2f3;
+
+$bg-gray: #f6f6f6;
 
 
 // 1. Global
 // ---------
 
-$primary-color: $linkcolor;
+$primary-color: $black;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -37,9 +41,9 @@ $pre-color: #ff6908;
 $global-width: 580px;
 $global-width-small: 95%;
 $global-gutter: 22px;
-$body-background: $gray;
+$body-background: gray;
 $container-background: $white;
-$global-font-color: $graytextcolor;
+$global-font-color: $text-color;
 $body-font-family: Arial, sans-serif;
 $global-padding: 16px;
 $global-margin: 16px;

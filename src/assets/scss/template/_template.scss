@@ -1,3 +1,72 @@
+.header {
+  background-color: $black;
+}
+
+.text-white {
+  color: $white-color;
+}
+
+.text-blue {
+  color: $blue-color;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.bg-blue {
+  background-color: $blue-color;
+}
+
+.bg-light-gray {
+  background-color: $bg-gray;
+}
+
+.button-big {
+  background-color: $orange-color;
+  border-bottom: solid 3px $border-orange-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  color: $white !important;
+  font-size: 20px;
+}
+
+.button-small {
+  background-color: $orange-color;
+  border-bottom: solid 3px $border-orange-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: $white !important;
+  font-size: 16px;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+.img-product {
+  width: 120px;
+}
+
+.footer {
+  background-color: $black;
+  color: $footer-text-color;
+  a {
+    color: $footer-text-color;
+  }
+}
+
+
+
+
+
+
+
 .logo {
   width: 145px !important;
   height: auto !important;
@@ -51,7 +120,7 @@
 }
 
 .border-bottom {
-  border-bottom: solid 1px $greencolor;
+  //border-bottom: solid 1px $greencolor;
 }
 
 .bg-gray {
@@ -67,7 +136,7 @@ hr {
 }
 
 .banner {
-  background: $linkcolor !important;
+  //background: $linkcolor !important;
 }
 
 .none-mb {
