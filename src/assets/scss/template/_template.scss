@@ -29,8 +29,8 @@
 }
 
 p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .line {
@@ -77,6 +77,7 @@ p {
     padding: 10px;
     p {
       text-align: center;
+      font-size: 20px;
     }
   }
 }
@@ -84,10 +85,13 @@ p {
 .price-product {
   font-weight: 600;
   padding: 0 5px;
+  font-size: 16px;
+
 }
 
 .button a {
   border-bottom: solid 3px $border-orange-color !important;
+  text-align: center;
 }
 
 .img-product {
@@ -147,7 +151,7 @@ p {
 /* Small only */
 @media only screen and (max-width: #{$global-breakpoint}) {
   p {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .header .wrapper-inner p{
     padding-left: 0;
