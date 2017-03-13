@@ -131,9 +131,12 @@ p {
   background-color: #222525;
   color: $footer-text-color;
   font-size: 20px;
-  a, span {
+  a, span, p {
     color: $footer-text-color;
     font-size: 20px;
+  }
+  p {
+    margin-bottom: 0;
   }
 }
 
@@ -164,18 +167,27 @@ p {
     }
   }
   .button a {
-    text-align: center;
+    text-align: center!important;
   }
+
   .cart-product .wrapper-inner {
     padding: 5px!important;
+  }
+  .cart-product .price-product {
+    display: block !important;
+    margin-bottom: 10px !important;
   }
   .main-link {
     text-align: center!important;
   }
+  .lable-social-links {
+    text-align: center!important;
+  }
   .social-links .list-social-icons {
-    text-align: right!important;
+    text-align: center!important;
     a {
       padding-left: 10px!important;
+      padding-right: 10px!important;
     }
   }
 }
