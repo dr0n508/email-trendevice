@@ -10,3 +10,4 @@ config.json
 .idea/
 
 .idea/watcherTasks.xml
+yarn.lock
